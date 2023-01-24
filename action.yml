@@ -35,7 +35,7 @@ outputs:
   imageURL:
     description: "The URL of the image."
 runs:
-  using: "node12"
+  using: "node16"
   main: "dist/index.js"
 branding:
   icon: "anchor"
